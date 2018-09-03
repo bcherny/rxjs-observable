@@ -11,6 +11,7 @@
     "format": "prettier --write src/* test/*",
     "lint": "tslint src/*.ts",
     "pretest": "npm run build",
+    "prepublishOnly": "npm test",
     "test": "ava dist/test/test.js"
   },
   "devDependencies": {
