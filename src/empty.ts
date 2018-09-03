@@ -1,5 +1,5 @@
+import {SchedulerLike} from 'rxjs/internal/types'
 import {Observable} from './Observable'
-import {SchedulerLike} from './types'
 
 /**
  * The same Observable instance returned by any call to {@link empty} without a

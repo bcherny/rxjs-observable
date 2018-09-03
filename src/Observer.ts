@@ -1,4 +1,4 @@
-import {Observer} from './types'
+import {Observer} from 'rxjs/internal/types'
 import {hostReportError} from './util/hostReportError'
 
 export const empty: Observer<any> = {

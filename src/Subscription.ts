@@ -1,4 +1,4 @@
-import {SubscriptionLike, TeardownLogic} from './types'
+import {SubscriptionLike, TeardownLogic} from 'rxjs/internal/types'
 import {errorObject} from './util/errorObject'
 import {isArray} from './util/isArray'
 import {isFunction} from './util/isFunction'

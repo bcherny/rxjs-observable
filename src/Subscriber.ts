@@ -1,7 +1,7 @@
+import {Observer, PartialObserver, TeardownLogic} from 'rxjs/internal/types'
 import {empty as emptyObserver} from './Observer'
 import {Subscription} from './Subscription'
 import {rxSubscriber as rxSubscriberSymbol} from './symbol/rxSubscriber'
-import {Observer, PartialObserver, TeardownLogic} from './types'
 import {hostReportError} from './util/hostReportError'
 import {isFunction} from './util/isFunction'
 

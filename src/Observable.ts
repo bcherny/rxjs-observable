@@ -1,9 +1,13 @@
-import {OperatorFunction} from 'rxjs/internal/types'
+import {
+  OperatorFunction,
+  PartialObserver,
+  Subscribable,
+  TeardownLogic
+} from 'rxjs/internal/types'
 import {Operator} from './Operator'
 import {Subscriber} from './Subscriber'
 import {Subscription} from './Subscription'
 import {observable as Symbol_observable} from './symbol/observable'
-import {PartialObserver, Subscribable, TeardownLogic} from './types'
 import {pipeFromArray} from './util/pipe'
 import {toSubscriber} from './util/toSubscriber'
 

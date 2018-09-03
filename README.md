@@ -10,6 +10,14 @@ You probably don't want this. This package is convenient if your bundler doesn't
 
 5.5kb, uglified and gzipped (with plans to cut that down even more).
 
+## Wait, why is `rxjs` a dependency?
+
+It's just for the types (look at the code if you don't believe me).
+
+## TODO
+
+- Generate this package automatically from rxjs.
+
 ## Tests?
 
 `yarn test`

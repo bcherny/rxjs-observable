@@ -1,7 +1,7 @@
-import { empty as emptyObserver } from '../Observer'
-import { Subscriber } from '../Subscriber'
-import { rxSubscriber as rxSubscriberSymbol } from '../symbol/rxSubscriber'
-import { PartialObserver } from '../types'
+import {PartialObserver} from 'rxjs/internal/types'
+import {empty as emptyObserver} from '../Observer'
+import {Subscriber} from '../Subscriber'
+import {rxSubscriber as rxSubscriberSymbol} from '../symbol/rxSubscriber'
 
 export function toSubscriber<T>(
   nextOrObserver?: PartialObserver<T> | ((value: T) => void),

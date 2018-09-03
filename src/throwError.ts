@@ -1,6 +1,6 @@
+import {SchedulerLike} from 'rxjs/internal/types'
 import {Observable} from './Observable'
 import {Subscriber} from './Subscriber'
-import {SchedulerLike} from './types'
 
 /**
  * Creates an Observable that emits no items to the Observer and immediately
