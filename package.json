@@ -1,6 +1,6 @@
 {
   "name": "rxjs-observable",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Standalone Observable, pulled out of RxJS",
   "main": "dist/src/index.js",
   "types": "dist/src/index.d.ts",
